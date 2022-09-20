@@ -32,8 +32,8 @@
 
         <script>
         const number = Math.floor(Math.random() * 3);
-        function number(id) {
-            if (randm == id) {
+        function random(id) {
+            if (number == id) {
                 alert("You win!");
             } else {
                 alert("You must try!");
