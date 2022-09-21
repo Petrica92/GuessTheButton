@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container">
-            <div id="lista">
+            <div id="list">
             </div>
             <div class="card">
                 <div class="card-header">
