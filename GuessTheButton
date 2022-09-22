@@ -8,14 +8,14 @@
         <title>Guess The Button!</title>
     </head>
     <body>
-        <div class="container">
+        <div class="buttons content">
             <div id="list">
             </div>
-            <div class="card">
-                <div class="card-header">
+            <div class="content">
+                <div class="content-header">
                     <h1><p style="text-align:center">Guess The Button!</p></h1>
                 </div>
-                <div class="card-body">
+                <div class="content-body">
                     <form>
                         <p style="text-align:center">
                         <button type="submit" class="btn btn-outline-secondary btn-lg" onclick="return random(id);">First button</button>
@@ -31,9 +31,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
         <script>
-            const number = Math.floor(Math.random() * 3);
+            const button = Math.floor(Math.random() * 3);
             function random(id) {
-                if (number == id) {
+                if (button == id) {
                     alert("You win!");
                 } else {
                     alert("You must try!");
