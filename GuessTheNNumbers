@@ -2,19 +2,19 @@
 <html lang="en">
 <meta charset="utf-8">
 <title>Project N Buttons</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <style>
-    h1 {text-align: center; font-style:italic;  color:red;}
+    h1 {text-align: center; font-style:normal;  color:red;}
     input[type="button"] {
         background-color: blue;
         color: white;
     }
     h3 {
-        text-align: center; font-style: italic; color:red;
+        text-align: center; font-style:normal; color:red;
     }
     h4 {
-        font-style:oblique; color:red;
+        font-style:normal; color:red;
     } 
     body {
         background-image: url('https://play-lh.googleusercontent.com/PFbDXRR_RWp6Qp-gnRZGSk1EvebDiefAayaGzAiyeTD1MfDJJo1ht49RgknUzsr_xqs');
@@ -34,7 +34,7 @@
     <br>
     <h3>Try your luck</h3>
     <br>
-    <h4>Insert a number and choose a button to see if you win or not.</h4>
+    <h4>Insert a number and choose a button to see if you are lucky or not.</h4>
     <label for="inputNumber">Enter a number</label>
     <input type="text" onblur="getVal()">
     <input type="button"  value="Submit" onclick="numbers()">
